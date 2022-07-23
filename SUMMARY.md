@@ -1,7 +1,8 @@
 # Table of contents
 
 * [소개](README.md)
-
-## 1장
-
-* [페이지 1](1/1.md)
+* [1장. 환경 설정](1-./README.md)
+  * [Node.js (16.16.0)](1-./node.js-16.16.0.md)
+  * [NVM (0.39.1)](1-./nvm-0.39.1.md)
+  * [Yarn (1.22.19)](1-./yarn-1.22.19.md)
+  * [VSCode](1-./vscode.md)
