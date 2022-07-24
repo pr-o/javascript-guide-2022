@@ -6,3 +6,7 @@
   * [NVM (0.39.1)](1-./nvm-0.39.1.md)
   * [Yarn (1.22.19)](1-./yarn-1.22.19.md)
   * [VSCode](1-./vscode.md)
+* [2장. 기초](2-./README.md)
+  * [변수와 상수](2-./undefined.md)
+  * [자료형 (Data Types)](2-./data-types.md)
+  * [연산자 (Operators)](2-./operators.md)
