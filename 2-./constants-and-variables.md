@@ -1,6 +1,6 @@
-# 변수와 상수
+# 변수와 상수 (Constants & Variables)
 
-## 변수 (Variable)
+## 변수
 
 변수는 값을 저장할 수 있는 컨테이너입니다. 변수를 선언할 때에는 `var` 또는 `let` 키워드 뒤에 변수의 이름을 지정하면 됩니다.
 
@@ -38,7 +38,7 @@ myJob = 'singer';
 
 
 
-## 상수 (Constant)
+## 상수
 
 상수는 변수와 달리 변하지 않는 값을 저장하는 컨테이너입니다. 상수를 선언할 때엔 `const` 키워드와 변수 이름 뒤에 초기값을 지정해야만 합니다. 상수의 값은 재할당을 통해 변경할 수 없습니다.
 
@@ -54,3 +54,4 @@ const pi = 3.1415;
 const pi;    // * Uncaught SyntaxError: Missing initializer in const declaration
 pi = 100;    // * Uncaught TypeError: Assignment to constant variable
 ```
+

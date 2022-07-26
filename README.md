@@ -1,6 +1,6 @@
 ---
 description: description
-cover: .gitbook/assets/image-extract.002.png
+cover: .gitbook/assets/image-extract.003.png
 coverY: 0
 ---
 

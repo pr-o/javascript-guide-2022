@@ -15,7 +15,7 @@ description: 경우에 따라 코드의 순차적인 흐름을 제어해야할 �
 ```jsx
 let w = 92;
 if (w < 100) {
-	console.log('smaller than 100')
+  console.log('smaller than 100')
 };
 ```
 
@@ -26,9 +26,9 @@ if (w < 100) {
 ```jsx
 let testScore = 85;
 if (testScore > 79) {
-	console.log('PASS');
+  console.log('PASS');
 } else {
-	console.log('FAIL');
+  console.log('FAIL');
 };
 ```
 
@@ -39,11 +39,11 @@ if (testScore > 79) {
 ```jsx
 let age = 20;
 if (age <= 2) {
-	console.log('toddler');
+  console.log('toddler');
 } else if (age <= 12) {
-	console.log('child');
+  console.log('child');
 } else if (age <= 18) {
-	console.log('adolescent');
+  console.log('adolescent');
 }
 ```
 
@@ -57,22 +57,22 @@ if (age <= 2) {
 const color = 'teal';
 
 switch (color) {
-	case 'red':
-		console.log('#FF0000');
-		break;
-	case 'green':
-		console.log('#00FF00');
-		break;
-	case 'blue':
-		console.log('#0000FF');
-		break;
-	case 'teal':
-		console.log('#008080');
-		break;
+  case 'red':
+    console.log('#FF0000');
+    break;
+  case 'green':
+    console.log('#00FF00');
+    break;
+  case 'blue':
+    console.log('#0000FF');
+    break;
+  case 'teal':
+    console.log('#008080');
+    break;
 }
 ```
 
-`break`는 `case`의 명령문을 실행한 후에 `switch`문을 탈출해 다음 명령문을 실행할 수 있게합니다
+`break`는 `case`의 명령문을 실행한 후에 `switch`문을 탈출해 다음 명령문을 실행할 수 있도록 합니다.
 
 
 
@@ -88,10 +88,12 @@ switch (color) {
 let i = 0;
 
 while (i < 5) {
-	console.log(i);
+  console.log(i);
   i++;
 }
 ```
+
+
 
 `i`의 초기값은 0이므로, 조건인 `i < 5` 가 참인 동안 4\~5번 라인의 코드가 반복실행됩니다. 5번 라인의 증가연산자(`++`)에 의해 `i`가 증가하게 되면서 5보다 작지 않을때 `while` 반복문을 탈출하게 됩니다.
 
@@ -101,15 +103,19 @@ while (i < 5) {
 
 `while` 반복문의 예제에서 보았듯이 반복문에는 대부분 초기화식과 조건식 그리고 증감식이 존재합니다.
 
-> 초기화식: `let i = 0;` 조건식: `i < 5` 증감식: `i++`
+{% hint style="info" %}
+초기화식: `let i = 0;` 조건식: `i < 5` 증감식: `i++`
+{% endhint %}
 
 이런 경우엔 `for` 반복문을 이용해 코드를 좀 더 간편하고 짧게 구성할 수 있습니다. 다음 예제는 위의 예제와 완전히 똑같이 작동합니다.
 
 ```jsx
 for (let i = 0; i < 5; i++) {
-	console.log(i)
+  console.log(i)
 }
 ```
+
+
 
 `for` 키워드를 뒤따르는 소괄호 안에 초기화식, 조건식, 증감식 순서대로 세미콜론(`;`)으로 구분지어 정의한다고 이해하면 좋습니다.
 
@@ -117,10 +123,35 @@ for (let i = 0; i < 5; i++) {
 
 ### for … in
 
+객체의 모든 열거할 수 있는 속성들을 순차적으로 접근하며 코드를 반복실행할 수 있습니다.
+
+```jsx
+const movie = {
+	title: 'The Curious Case of Benjamin Button',
+	director: 'David Fincher',
+	writer: 'Eric Roth',
+	releaseYear: 2008,
+};
+
+for (let key in movie) {
+	console.log(key + ': ' + movie[key]);
+};
+```
+
 
 
 ### for … of
 
+주로 배열의 항목들을 순회하며 코드를 반복실행할 수 있습니다.
+
+```jsx
+const odd = [1, 3, 5, 7, 9];
+for (let number of odd) {
+	console.log(number);
+};
+```
+
 ####
 
 이 외에도 `while` 문 그리고 `do... while` 문 등이 있습니다.
+

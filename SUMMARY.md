@@ -7,7 +7,7 @@
   * [Yarn (1.22.19)](1-./yarn-1.22.19.md)
   * [VSCode](1-./vscode.md)
 * [2장. 기초](2-./README.md)
-  * [변수와 상수](2-./undefined.md)
+  * [변수와 상수 (Constants & Variables)](2-./constants-and-variables.md)
   * [자료형 (Data Types)](2-./data-types.md)
   * [연산자 (Operators)](2-./operators.md)
   * [제어문 (Control Flow Statements)](2-./control-flow-statements.md)
