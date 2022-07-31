@@ -1,8 +1,8 @@
----
-description: 경우에 따라 코드의 순차적인 흐름을 제어해야할 때 사용하는 명령문을 제어문이라고 합니다.
----
-
 # 제어문 (Control Flow Statements)
+
+경우에 따라 코드의 순차적인 흐름을 제어해야할 때 사용하는 명령문을 제어문이라고 합니다.
+
+
 
 ## 조건문 (Conditional Statements)
 
