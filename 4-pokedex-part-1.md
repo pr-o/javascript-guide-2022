@@ -89,10 +89,10 @@
 
 크게 세개의 요소로 구성되어있습니다.
 
-* `main`: 주요 콘텐츠를 정의하는 요소
-* `header`: 로고 이미지와 페이지 제목을 포함하는 상단 헤더 요소
-* `ul`: 포켓몬들의 리스트 항목들을 담을 리스트 요소
-* `script`: 스크립트 요소로 `src` 디렉토리 내의 자바스크립트 코드를 불러옵니다
+* `<main>`: 주요 콘텐츠를 정의하는 요소
+* `<header>`: 로고 이미지와 페이지 제목을 포함하는 상단 헤더 요소
+* `<ul>`: 포켓몬들의 리스트 항목들을 담을 리스트 요소
+* `<script>`: 스크립트 요소로 `src` 디렉토리 내의 자바스크립트 코드를 불러옵니다
 
 
 
@@ -198,7 +198,7 @@ function renderFunction(parentElement) {
 1. `<ul>` 요소를 선택해 `ulElement` 변수에 할당해주세요.
 2. `getPokemonList` 함수를 완성해주세요. 이 함수는 `fetch API`를 사용해 `url` 변수 내 URL로 GET 요청을 보낸 후, 받은 응답을 JSON으로 변환하는 promise를 반환해주어야 합니다. 완성된 함수는 `renderFunction` 함수 안에서 호출될 겁니다. ([fetch API docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch\_API/Using\_Fetch))
 3. `<ul>` 요소에 대한 CSS 스타일을 정의해서 자식들인 `<li>` 요소들의 앞에 bulletpoint가 생기지 않도록 해주세요. 또, `display` attribute을 수정해 자식 요소들이 한 줄(row)에 하나가 아니라 셋씩 배치되도록 해주세요.
-4. `renderFunction` 함수를 완성해주세요. 이 함수는 xx번 라인에서 위에서 완성한 `getPokemonList` 함수를 호출하고, 반환된 promise에 `.then()` 함수를 사용해 promise chain을 형성하고 있습니다. 이 promise chain의 두번째 promise는 `getPokemonList` 함수로 불러온 데이터 배열을 순회하며 각 (포켓몬) 항목마다 다음을 반복수행해야 합니다.
+4. `renderFunction` 함수를 완성해주세요. 이 함수는 위에서 완성한 `getPokemonList` 함수를 호출하고, 반환된 promise에 `.then()` 함수를 사용해 promise chain을 형성하고 있습니다. 이 promise chain의 두번째 promise는 `getPokemonList` 함수로 불러온 데이터 배열을 순회하며 각 (포켓몬) 항목마다 다음을 반복수행해야 합니다.
    * [ ] `span` 요소 생성, 내부 텍스트에 포켓몬 이름을 삽입
    * [ ] `img` 요소 생성, `src` attribute을 포켓몬 이미지 URL로 지정 (`getImageURI` 함수 사용)
    * [ ] `img` 요소의 `className` attribute을 지정해서 CSS style 정의
