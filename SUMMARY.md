@@ -11,4 +11,4 @@
   * [자료형 (Data Types)](2-./data-types.md)
   * [연산자 (Operators)](2-./operators.md)
   * [제어문 (Control Flow Statements)](2-./control-flow-statements.md)
-* [3장. 실습](3-..md)
+* [3장. 실습: inkedIn](3-..md)
