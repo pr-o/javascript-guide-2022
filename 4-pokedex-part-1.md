@@ -27,8 +27,8 @@
 ├── assets
 │   └── pokeBall-icon.png
 ├── src
-│ ├── index.js
-│ └── styles.css
+│   ├── index.js
+│   └── styles.css
 ├── index.html
 └── package.json
 ```
