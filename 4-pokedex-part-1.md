@@ -1,8 +1,6 @@
-# 4장 실습: PokéDex - Part 1
+# 4장 실습: PokéDex - part 1
 
-학습한 내용을 실습해봅시다. HTML, CSS, JavaScript 코드를 조합해 다음과 같은 포켓몬 도감 웹사이트인 PokéDex 페이지를 만들어보겠습니다.
-
-
+학습한 내용을 실습해봅시다. HTML, CSS, JavaScript 코드를 조합해 다음과 같은 포켓몬 도감 웹사이트인 **`PokéDex`** 페이지를 만들어보겠습니다.
 
 ![](.gitbook/assets/pokedex-demo.jpg)
 
@@ -12,8 +10,6 @@
 
 1. 프로젝트를 우측 상단의 `Fork` 버튼을 눌러 `나의 CodeSandbox`로 가져와서 진행
 2. 좌측 상단의 메뉴 버튼을 클릭한 후, `File → Export to ZIP` 메뉴를 클릭해 다운로드해서 VSCode와 같은 IDE에서 진행
-
-
 
 ![](.gitbook/assets/codesandbox-menu-button.png)
 
@@ -253,7 +249,7 @@ function renderFunction(parentElement) {
 
 ### 🎉 완성 🎉
 
-요구사항을 모두 구현했다면 `PokéDex` 페이지가 어느정도 완성되었을 겁니다. Part 2에서 만나요 👋
+요구사항을 모두 구현했다면 **`PokéDex` ** 페이지가 어느정도 완성되었을 겁니다. Part 2에서 만나요 👋
 
 완성된 프로젝트의 코드는 실습 Part 2에서 참고할 수 있습니다.
 
