@@ -13,3 +13,4 @@
   * [제어문 (Control Flow Statements)](2-./control-flow-statements.md)
 * [3장. 실습: inkedIn](3-..md)
 * [4장 실습: PokéDex - part 1](4-pokedex-part-1.md)
+* [5장. 실습: PokéDex - part 2](5-.-pokedex-part-2.md)
