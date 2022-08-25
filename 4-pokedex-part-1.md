@@ -1,4 +1,4 @@
-# 4장 실습: PokéDex - part 1
+# 4장. 실습: PokéDex - part 1
 
 학습한 내용을 실습해봅시다. HTML, CSS, JavaScript 코드를 조합해 다음과 같은 포켓몬 도감 웹사이트인 **`PokéDex`** 페이지를 만들어보겠습니다.
 
@@ -249,7 +249,11 @@ function renderFunction(parentElement) {
 
 ### 🎉 완성 🎉
 
-요구사항을 모두 구현했다면 **`PokéDex` ** 페이지가 어느정도 완성되었을 겁니다. Part 2에서 만나요 👋
+요구사항을 모두 구현했다면 **`PokéDex` ** 페이지가 어느정도 완성되었을 겁니다. [Part 2](5-.-pokedex-part-2.md)에서 만나요 👋
 
 완성된 프로젝트의 코드는 실습 Part 2에서 참고할 수 있습니다.
+
+{% content-ref url="5-.-pokedex-part-2.md" %}
+[5-.-pokedex-part-2.md](5-.-pokedex-part-2.md)
+{% endcontent-ref %}
 
