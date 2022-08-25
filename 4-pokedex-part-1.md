@@ -249,7 +249,7 @@ function renderFunction(parentElement) {
 
 ### 🎉 완성 🎉
 
-요구사항을 모두 구현했다면 **`PokéDex` ** 페이지가 어느정도 완성되었을 겁니다. [Part 2](5-.-pokedex-part-2.md)에서 만나요 👋
+요구사항을 모두 구현했다면 **`PokéDex` ** 페이지가 어느정도 완성되었을 겁니다. Part 2에서 만나요 👋
 
 완성된 프로젝트의 코드는 실습 Part 2에서 참고할 수 있습니다.
 
