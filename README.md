@@ -13,5 +13,5 @@ coverY: 0
 
 
 <span style="text-align:right;">
-  <mark style="color:#ff625acc;">Superb AI - Lunch & Learn - JavaScript 강의 자료 (2022.08.02 ~ 2022.08.30)</mark>
+  <mark style="color:#ff625a;">Superb AI - Lunch & Learn - JavaScript 강의 자료 (2022.08.02 ~ 2022.08.30)</mark>
 </span>
