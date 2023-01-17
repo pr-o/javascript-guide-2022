@@ -13,6 +13,6 @@ coverY: 0
 
 
 
-<mark style="color:orange;">Superb AI - Lunch & Learn - JavaScript 강의 자료 (2022.08.02 \~ 2022.08.30)</mark>
+<mark style="color:orange;">Superb AI - Lunch & Learn - JavaScript for Everyone 자료 (2022.08.02 \~ 2022.08.30)</mark>
 
 <mark style="color:orange;"></mark>
